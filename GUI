@@ -23,7 +23,7 @@ TextLabel.Parent = Executor
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.424642622, 0, 0.189974919, 0)
+TextLabel.Position = UDim2.new(0.372918487, 0, 0.222961023, 0)
 TextLabel.Size = UDim2.new(0, 367, 0, 38)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = ""
@@ -48,7 +48,7 @@ inserttext.BorderSizePixel = 0
 inserttext.Position = UDim2.new(0.0537560917, 0, 0.0550659038, 0)
 inserttext.Size = UDim2.new(0, 266, 0, 284)
 inserttext.Font = Enum.Font.SourceSans
-inserttext.PlaceholderText = "Place your scripts here"
+inserttext.PlaceholderText = "Remake By Vata909tt"
 inserttext.Text = ""
 inserttext.TextColor3 = Color3.fromRGB(0, 0, 0)
 inserttext.TextSize = 14.000
@@ -120,14 +120,14 @@ ImageLabel.Image = "rbxassetid://115885657660241"
 
 -- Scripts:
 
-local function FIFOA_fake_script() -- TextLabel.DragScript 
+local function YDUT_fake_script() -- TextLabel.DragScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local UIS = game:GetService("UserInputService")
 	
 	local frame = script.Parent
 	local dragToggle = false
-	local dragSpeed = 0.25
+	local dragSpeed = 0
 	local dragStart
 	local startPos
 	
@@ -184,8 +184,8 @@ local function FIFOA_fake_script() -- TextLabel.DragScript
 	
 	end)
 end
-coroutine.wrap(FIFOA_fake_script)()
-local function PSNBDZ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(YDUT_fake_script)()
+local function FWWZLVO_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -198,4 +198,4 @@ local function PSNBDZ_fake_script() -- Frame.LocalScript
 		ButtonPressed:FireServer(textBox.Text)
 	end)
 end
-coroutine.wrap(PSNBDZ_fake_script)()
+coroutine.wrap(FWWZLVO_fake_script)()
