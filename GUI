@@ -130,20 +130,20 @@ ImageLabel.Image = "rbxassetid://115885657660241"
 
 -- Scripts:
 
-local function AXBTF_fake_script() -- TextButton.LocalScript 
+local function UXMIV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	local button = script.Parent
-	local remoteEvent = ReplicatedStorage:WaitForChild(remoteEvent)
+	local remoteEvent = ReplicatedStorage:WaitForChild("RemoteEvent")
 	
 	button.Activated:Connect(function()
 		remoteEvent:FireServer()
 	end)
 end
-coroutine.wrap(AXBTF_fake_script)()
-local function ALCA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(UXMIV_fake_script)()
+local function YPOVT_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Players = game:GetService("Players")
@@ -161,8 +161,8 @@ local function ALCA_fake_script() -- TextButton_2.LocalScript
 		humanoid.RigType = Enum.HumanoidRigType.R6
 	end)
 end
-coroutine.wrap(ALCA_fake_script)()
-local function CXBC_fake_script() -- TextLabel.DragScript 
+coroutine.wrap(YPOVT_fake_script)()
+local function HUHZ_fake_script() -- TextLabel.DragScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -205,4 +205,4 @@ local function CXBC_fake_script() -- TextLabel.DragScript
 	end)
 	
 end
-coroutine.wrap(CXBC_fake_script)()
+coroutine.wrap(HUHZ_fake_script)()
